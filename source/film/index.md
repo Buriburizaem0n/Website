@@ -20,7 +20,8 @@ date: 2024-08-30 11:31:42
     poster="./Picbase/JCL.webp"
     data-setup="{}"
   >
-    <source src="http://123tv.cdn.ses-ps.com/index.m3u8" type="application/x-mpegURL" />
+    <source src="http://47.122.5.81:8080/hls/Mjs7Bst2v38D1T6oBShFSLk"
+    type="application/x-mpegURL" />
     <p class="vjs-no-js">
       To view this video please enable JavaScript, and consider upgrading to a
       web browser that

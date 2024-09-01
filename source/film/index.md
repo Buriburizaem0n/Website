@@ -3,8 +3,8 @@ title: “电影发明以后，人类的生命至少比以前延长了三倍”
 date: 2024-08-30 11:31:42
 tags: ["电影", "生命"]
 password: loveforever
-message: 请在密码框中输入密码以查看视频
-wrong_pass_message: 密码错误，请重新输入
+# message: 请在密码框中输入密码以查看视频
+# wrong_pass_message: 密码错误，请重新输入
 ---
 <head>
   <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />

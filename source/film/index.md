@@ -15,8 +15,8 @@ tags: ["电影", "生命"]
   <style>
     /* 默认样式 */
     .video-js {
-      width: 896px;
-      height: 512px;
+      width: 800px;
+      height: 500px;
     }
 
     /* 针对手机设备的样式调整 */

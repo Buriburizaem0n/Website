@@ -29,7 +29,7 @@ custom_file_path:
   #bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
+  style: source/_data/styles.styl
 
 
 # ---------------------------------------------------------------
@@ -38,9 +38,9 @@ custom_file_path:
 
 # Schemes
 scheme: Muse
-#scheme: Mist
-#scheme: Pisces
-#scheme: Gemini
+# scheme: Mist
+# scheme: Pisces
+# scheme: Gemini
 
 # Dark Mode
 darkmode: false
@@ -353,8 +353,8 @@ mobile_layout_economy: false
 
 # Browser header panel color.
 theme_color:
-  light: "#222"
-  dark: "#222"
+  light: "#746fff"
+  dark: "#e3fb11"
 
 # Override browsers' default behavior.
 body_scrollbar:
@@ -428,7 +428,7 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
   host:
@@ -441,30 +441,30 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Lato
+    family: Noto Serif SC
     size:
 
   # Font settings for site title (.site-title).
   title:
     external: true
-    family:
+    family: Noto Serif SC
     size:
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
     external: true
-    family:
+    family: Noto Serif SC
     size:
 
   # Font settings for posts (.post-body).
   posts:
     external: true
-    family:
+    family: Noto Serif SC
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: Noto Serif SC
 
 
 # ---------------------------------------------------------------
@@ -643,7 +643,7 @@ motion:
 # Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace
 pace:
-  enable: false
+  enable: true
   # All available colors:
   # black | blue | green | orange | pink | purple | red | silver | white | yellow
   color: blue

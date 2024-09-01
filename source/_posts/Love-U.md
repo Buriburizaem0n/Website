@@ -11,57 +11,75 @@ tags:
     <title>Love U</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
-            background-color: #f5f5f5;
+            padding: 0;
+            background: linear-gradient(to right, #ff9a9e, #fecfef);
+            font-family: 'Arial', sans-serif;
+            display: flex;
             flex-direction: column;
+            justify-content: center;
+            height: 140vh;
         }
-        .heart {
+        .heartt {
+            width: 120px;
+            height: 120px;
+            background-color: #e74c3c;
             position: relative;
-            width: 100px;
-            height: 100px;
-            background-color: red;
             transform: rotate(-45deg);
             margin-bottom: 20px;
+            animation: pulse 1s infinite;
         }
-        .heart::before,
-        .heart::after {
+        .heartt::before,
+        .heartt::after {
             content: "";
-            position: absolute;
-            width: 100px;
-            height: 100px;
-            background-color: red;
+            width: 120px;
+            height: 120px;
+            background-color: #e74c3c;
             border-radius: 50%;
+            position: fixed;
         }
-        .heart::before {
-            top: -50px;
+        .heartt::before {
+            top: -60px;
             left: 0;
         }
-        .heart::after {
-            left: 50px;
+        .heartt::after {
+            left: 60px;
             top: 0;
         }
-        .heart::before, .heart::after {
-            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
-        }
         .text {
+            font-size: 4em;
+            color: #ffffff;
             text-align: center;
-            font-size: 24px;
-            font-weight: bold;
-            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .text span {
+            display: block;
+            animation: bounce 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1) rotate(-45deg);
+            }
+            50% {
+                transform: scale(1.1) rotate(-45deg);
+            }
+        }
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
         }
     </style>
 </head>
 <body>
-    <div class="heart"></div>
+    <div class="heartt"></div>
     <div class="text">
-        I<br>
-        Love<br>
-        U
+        <span>I</span>
+        <span>Love</span>
+        <span>U</span>
     </div>
 </body>
 </html>

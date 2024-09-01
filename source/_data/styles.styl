@@ -1,0 +1,98 @@
+body { 
+   
+
+    background:url(/images/background.jpg);
+
+    background-repeat: no-repeat;
+
+    background-attachment:fixed; //不重复
+
+    background-size: cover;      //填充
+
+    background-position:50% 50%;
+
+}
+
+/* custom styles */
+:root {
+    --btn-default-bg: transparent;
+    --btn-default-color: var(--theme-color);
+    --btn-default-border-color: var(--theme-color);
+    --btn-default-hover-bg: var(--theme-color);
+    --btn-default-hover-border-color: var(--theme-color);
+    --link-hover-color: var(--theme-color);
+}
+/* theme widgets */
+.sidebar-toc-active .sidebar-nav-toc,
+.sidebar-overview-active .sidebar-nav-overview {
+    border-bottom-color: var(--theme-color);
+    color: var(--theme-color);
+}
+.post-toc .nav .active > a {
+    border-bottom-color: var(--theme-color);
+    color: var(--theme-color);
+}
+.post-toc .nav .active-current > a {
+    color: var(--theme-color);
+}
+/* borders */
+.post-copyright ul {
+    border-left: 8px solid var(--theme-color);
+}
+.reading-progress-bar {
+    background: var(--theme-color);
+}
+/* selections */
+::selection {
+    background: var(--theme-color);
+}
+.site-title::selection {
+    background: gold;
+    color: var(--theme-color);
+}
+.site-subtitle::selection {
+    background: gold;
+    color: var(--theme-color);
+}
+/* on hover */
+.menu-item:hover .badge {
+    background: var(--link-hover-color);
+}
+.sidebar-nav li:hover {
+    color: var(--link-hover-color);
+}
+.sidebar-toc-active .sidebar-nav-toc:hover,
+.sidebar-overview-active .sidebar-nav-overview:hover {
+    color: var(--link-hover-color);
+}
+.post-toc .nav .active-current > a:hover {
+    color: var(--link-hover-color);
+}
+.posts-expand .post-title-link:hover {
+    color: var(--link-hover-color);
+}
+.posts-expand .post-title-link::before {
+    background: var(--link-hover-color);
+}
+.posts-collapse .post-content .post-header:hover {
+    border-bottom-color: var(--link-hover-color);
+}
+.posts-collapse .post-content .post-header:hover::before {
+    background: var(--link-hover-color);
+}
+.posts-collapse .post-content .post-header:hover time {
+    color: var(--link-hover-color);
+}
+.posts-collapse .post-content .post-title:hover a {
+    color: var(--link-hover-color);
+}
+/* image size */
+.post-body img {
+    margin-top: 0.75em;
+    margin-bottom: 1.75em;
+    width: 75%;
+}
+/* fix ( 1) */
+.category-all-page .category-list-count:last-child::after {
+    content: ' ) '
+}

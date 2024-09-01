@@ -52,7 +52,7 @@ tags: ["电影", "生命"]
       src="http://[2408:8763:0:909:df62:ec93:ec8a:880c]:8080/hls/Mjs7Bst2v38D1T6oBShFSLkxWzWWweAl.m3u8"
       type="application/x-mpegURL"
     />
-    <!-- <source src="./test/test.mp4" type="video/mp4"> -->
+    <source src="/home/git/Videos/test.mp4" type="video/mp4">
     <p class="vjs-no-js">
       Love U Forever
       <a href="https://videojs.com/html5-video-support/" target="_blank"

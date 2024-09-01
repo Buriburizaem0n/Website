@@ -22,10 +22,20 @@ tags: ["电影", "生命"]
     /* 针对手机设备的样式调整 */
     @media screen and (max-width: 768px) {
       .video-js {
-        width: 100%;
-        height: auto;
-      }
-    }
+      width: 100%;
+      height: 0;
+      padding-top: 56.25%; /* 16:9 比例 */
+      position: relative;
+  }
+    .video-js iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+}
+
   </style>
 </head>
 

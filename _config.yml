@@ -98,9 +98,7 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: next
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: 'git'
-  repository:
-    aliyun: git@47.122.5.81:/www/repos/hexo.git
+# Security
+##
+encrypt:
+    enable: true

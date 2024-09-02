@@ -28,6 +28,7 @@ tags:
             transform: rotate(-45deg);
             margin-bottom: 20px;
             animation: pulse 1s infinite;
+            left: 390px;
         }
         .heartt::before,
         .heartt::after {

@@ -25,13 +25,13 @@ tags: ["电影", "生命"]
       .video-js {
       width: 100%;
       height: 0;
+      left: 0;
       padding-top: 56.25%; /* 16:9 比例 */
       position: relative;
   }
     .video-js iframe {
       position: absolute;
       top: 0;
-      left: 0;
       width: 100%;
       height: 100%;
   }

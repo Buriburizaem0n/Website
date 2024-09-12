@@ -2,13 +2,13 @@
 title: “电影发明以后，人类的生命至少比以前延长了三倍”
 date: 2024-08-30 11:31:42
 tags: ["电影", "生命"]
-password: ####
+password: ###
 message: 请在密码框中输入密码以查看视频
 wrong_pass_message: 密码错误，请重新输入
 ---
 <head>
   <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
-  <script src="https://cdn.bootcdn.net/ajax/libs/flv.js/1.6.1/flv.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flv.js/1.6.1/flv.min.js"></script>
   <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
   <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
 
@@ -44,14 +44,13 @@ wrong_pass_message: 密码错误，请重新输入
   <video id="my-video" class="video-js" controls preload="auto" poster="./Picbase/JCL.webp">
     <source src="./filmbase/test.mp4" type="video/mp4">
   </video>
-  <script src="https://cdn.bootcdn.net/ajax/libs/flv.js/1.6.1/flv.min.js"></script>
   <script>
     var videoElement = document.getElementById('my-video');
     // 检查 flv.js 支持情况
     if (flvjs.isSupported()) {
       var flvPlayer = flvjs.createPlayer({
         type: 'flv',
-        url: '#####'
+        url: '###'
       });
       flvPlayer.attachMediaElement(videoElement);
       flvPlayer.load();

@@ -21,15 +21,15 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.20.0","exturl":true,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="&#x2F;* 默认样式 *&#x2F;     .video-js {       left: 70px;       width: 800px;       height: 500px;     }      &#x2F;* 针对手机设备的样式调整 *&#x2F;     @media screen and (max-width: 768px) {       .video-js {">
+    <meta name="description" content="Here&#39;s something encrypted, password is required to continue reading.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="“电影发明以后，人类的生命至少比以前延长了三倍”">
 <meta property="og:url" content="http://example.com/film/index.html">
 <meta property="og:site_name" content="洛陽 &amp; Buriburi的Blog">
-<meta property="og:description" content="&#x2F;* 默认样式 *&#x2F;     .video-js {       left: 70px;       width: 800px;       height: 500px;     }      &#x2F;* 针对手机设备的样式调整 *&#x2F;     @media screen and (max-width: 768px) {       .video-js {">
+<meta property="og:description" content="Here&#39;s something encrypted, password is required to continue reading.">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-08-30T03:31:42.000Z">
-<meta property="article:modified_time" content="2024-09-12T17:10:59.277Z">
+<meta property="article:modified_time" content="2024-09-12T17:14:24.406Z">
 <meta property="article:author" content="洛陽(らくよう) ❤ Buriburi(ぶりぶり)">
 <meta property="article:tag" content="电影">
 <meta property="article:tag" content="生命">
@@ -166,78 +166,18 @@
       
       
       <div class="post-body">
-          <head>
-  <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
-  <script src="flv.min.js"></script>
-  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-  <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
-
-  <style>
-    /* 默认样式 */
-    .video-js {
-      left: 70px;
-      width: 800px;
-      height: 500px;
-    }
-
-    /* 针对手机设备的样式调整 */
-    @media screen and (max-width: 768px) {
-      .video-js {
-      width: 100%;
-      height: 0;
-      left: 0;
-      padding-top: 56.25%; /* 16:9 比例 */
-      position: relative;
-  }
-    .video-js iframe {
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 100%;
-  }
-}
-
-  </style>
-</head>
-
-<body>
-  <video id="my-video" class="video-js" controls preload="auto" poster="./Picbase/JCL.webp">
-    <source src="./filmbase/test.mp4" type="video/mp4">
-  </video>
-  <script>
-    var videoElement = document.getElementById('my-video');
-    // 检查 flv.js 支持情况
-    if (flvjs.isSupported()) {
-      var flvPlayer = flvjs.createPlayer({
-        type: 'flv',
-        url: '###'
-      });
-      flvPlayer.attachMediaElement(videoElement);
-      flvPlayer.load();
-      // 监听播放失败或流不可用的情况
-      flvPlayer.on(flvjs.Events.ERROR, function(errorType, errorDetail) {
-        console.error('FLV Error:', errorType, errorDetail);
-        // 回退到 MP4 播放
-        videoElement.src = './filmbase/test.mp4';
-        videoElement.load();
-        videoElement.play();
-      });
-      flvPlayer.play().catch(function(error) {
-        console.error('FLV Play Error:', error);
-        // FLV 播放失败时回退到 MP4
-        videoElement.src = './filmbase/test.mp4';
-        videoElement.load();
-        videoElement.play();
-      });
-    } else {
-      // 自动回退到 MP4 或 M3U8 源
-      videoElement.load();
-    }
-  </script>
-
-  <script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
-</body>
-
+          <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误，请重新输入" data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="751d2700304851f2141864d5de7ddcfc9f78e5f3f1593df925379e70182355d4">29a8c40bcae656a2ef17cf891ab281c2b28d949a5cf2b38ab72b623afad79f134cf8f7bd687a63327e191a156e53334e3efc8d178a7ad8e6cc6c1022377d84eac72377e78af55ad2b7ec7647ac17432a2ee14b60d50d07a6daa342826aa3b6d8c0644290af25eebb3be28705ad9bf8cca3238f3e2cef264680aedc8a3b29b2cc0ec885ba779e3ba6cf74c7b9b056fc414b56c5a1c47586a2689df2666e2908c49c755bef917ed782f680a1964db803337273f3402dc5eb1739c4bfdb2c56012bb651f35b5131603655afb885404c0a45c1f5c2b99dbc3004ab4e1782a00b19cd2bb42d6537e6a54cb96eb53d9837a52b60638daf26ccebe671eb7581f48e9f4f24bf1a64a20206e82c4b28fe2d3218b68e35097af2eeb0fc4b3d8449c3195ab4aac42065bf845f5a73528f81eb8a6b29990661dfaf84c9c95629a9f4e523bf727dbf88d9ccf9040d417046178710b216adc2d0dce1686d3bde3f9376c5c85547d3904151e05c9ecd3225bb778d186be09f17c1d0b1f71ebb73e7d64ee29f092e4d427aea6bb0d165fd69bc628ea75d780bf3679f6a2896cca9e146e6b4157ab43cc317592aebc05c8edbc36dd3cdb8ec3e96b37232af2c17902f91a5833b9c07c9e4ce2330bf665a777292a96dbf486b9bd45280426c8fad57f29f11b3b96a4cd9eacd9844e85d3353c7fd68e13b54108b82976a9fea9ed3fe942d88864fd1f811ad5376f617cb05ea101e5f6e2f5004526f6ec004b61f75709a006a6c8d5e8f7ab986530634c23a8f478832811ea10e421f0f1c4f39a77f13f52aa75f26bbd7b3be46434cfa7eebe89b1d6effcb79ddeaa5dcb7423950774a6f14e8523fbc5f901917cb23dc2df55e3c535275fb633c5fbb7f399dcd630ffe89a6fb977b11ab1324335be44a0162dd9a83b95c9aad354c3236d0b022276b82bba789a2b712be3061fe800b500b79fd69c98aa1b3f71fabdd29437bd2a21a3a8ba11080fd605436e44ad0759539a7f329c936e94ab04ccfdd84276f49d35409cd44b4acda450d814b20467df3b3bb52219909e640b4852ad44fd72a8095a6b6581e3e2fa6485d2b5843caf26ef0a47235fc26444b206961b35980c102d7ff249e52c109857549c63d20cee65ca95251abbe66f21568eb0d57db711bab2bebef1e74b78a2132a0a7b372f4d99fbdd38949b794cc75df45b8b57e5da9bc807f109aa61dcaa110a377eb1046e9ea19f0fe34fff2c0a5a76bcfffa1a10c0de1310a730ef3aa53c2fac363d892fd737bd451fc91130a086aa90ffe4da95309e66e43850a3622b29c056f0303623d79396a01370db6206873d40e210b8579f76b2f1ae03491661a67b840185bbebef7af4ca8819f4282b6c01511d1de362c7fd6f8debfa2b41711b9f3cc4385f08c747f6a49a871748c7ee0770a0c1a7b7666386138bcf23412b488382a4b0ac3dca412e64c09d263c47e9f3e48201c1c6ecb5c39762eb5f51faa0b85862163c237d3623801c8ab34538bec4ec52d07d04e2e9506fa4bf9d9a867f6f8a57aa6f3fc39ad0d41de71991a7c2f52adc80a558347b7af6e2efa9e1e5bb8a558d39a4811693f94658e92f38f527a9ecc96080640daf2863ebbb7b1805650837989c033f0130a90f62ff6eb1a95325ee189a1923d83a5371551c146b51b119d334dc97bdfa1ab9cc5fe842af593f350a296c375545bf7c6911a0e25ec6a23a4e01eb46d5fce126cba2f6b560f54e95dd76db3169fe967120f62e0abec2538fd09ff9dc08082208bf729fb424bd3617f072d9739d1c3be56ab41a889975ce7ca5bcafef9817600a43c7271d5d979679f238f16d8c2defa972aa2d11fbd525fcf6876ccdf8a173d6b2d2886b9c9b7b9adf2d101bca4aa5b9b8e8f42c19851bcae</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请在密码框中输入密码以查看视频</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
       </div>
       
       

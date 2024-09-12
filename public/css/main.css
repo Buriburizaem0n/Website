@@ -1234,7 +1234,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #ff17ff;
+    background: #baff16;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2793,4 +2793,8 @@ body {
 }
 :root {
   --content-bg-color: rgba(255,255,255,0.4);
+}
+.gongan-beian-icon {
+  width: 15px; /* 设置为你想要的宽度 */
+  height: auto; /* 高度自适应宽度 */
 }

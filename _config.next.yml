@@ -234,7 +234,7 @@ footer:
     # The full num of gongan beian.
     gongan_num: #
     # The icon for gongan beian. Login and See: https://beian.mps.gov.cn/web/business/businessHome/website
-    gongan_icon_url: /images/beian.png
+    gongan_icon_url: #
 
 
 # ---------------------------------------------------------------

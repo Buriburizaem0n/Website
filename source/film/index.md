@@ -53,10 +53,6 @@ wrong_pass_message: 密码错误，请重新输入
       src="#"
       type="application/x-mpegURL"
     />
-    <source
-      src="#"
-      type="application/x-mpegURL"
-    />
     <source src="./filmbase/test.mp4" type="video/mp4">
     <p class="vjs-no-js">
       Love U Forever

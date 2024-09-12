@@ -2,7 +2,7 @@
 title: “电影发明以后，人类的生命至少比以前延长了三倍”
 date: 2024-08-30 11:31:42
 tags: ["电影", "生命"]
-password: ###################
+password: ###
 message: 请在密码框中输入密码以查看视频
 wrong_pass_message: 密码错误，请重新输入
 ---
@@ -50,7 +50,7 @@ wrong_pass_message: 密码错误，请重新输入
     data-setup="{}"
   >
     <source
-      src="#########################################################"
+      src="###"
       type="application/x-mpegURL"
     />
     <source src="./filmbase/test.mp4" type="video/mp4">

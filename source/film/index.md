@@ -2,7 +2,7 @@
 title: “电影发明以后，人类的生命至少比以前延长了三倍”
 date: 2024-08-30 11:31:42
 tags: ["电影", "生命"]
-password: #
+password: 20240809
 message: 请在密码框中输入密码以查看视频
 wrong_pass_message: 密码错误，请重新输入
 ---
@@ -20,7 +20,7 @@ wrong_pass_message: 密码错误，请重新输入
     }
 
     /* 针对手机设备的样式调整 */
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1300px) {
       .video-js {
         width: 100%;
         height: 0;
@@ -35,15 +35,6 @@ wrong_pass_message: 密码错误，请重新输入
         height: 100%;
       }
     }
-
-    /* 针对平板设备的样式调整 */
-    @media screen and (min-width: 769px) and (max-width: 1300px) {
-      .video-js {
-        width: 60%;
-        height: auto;
-        left: 3%;
-      }
-    }
   </style>
 </head>
 
@@ -56,7 +47,7 @@ wrong_pass_message: 密码错误，请重新输入
     poster="./Picbase/JCL.webp"
     data-setup="{}"
   >
-    <source src="#" type="application/x-mpegURL" />
+    <source src="https://hls.luoyangdonghui.de/hls/Mjs7Bst2v38D1T6oBShFSLkxWzWWweAl809.m3u8" type="application/x-mpegURL" />
     <source src="./filmbase/test.mp4" type="video/mp4" />
     <p class="vjs-no-js">
       Love U Forever

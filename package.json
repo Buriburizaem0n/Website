@@ -12,7 +12,10 @@
     "version": "7.3.0"
   },
   "dependencies": {
+    "axios": "^1.7.7",
+    "dplayer": "^1.27.1",
     "flv.js": "^1.6.2",
+    "got": "^14.4.2",
     "hexo": "^7.3.0",
     "hexo-blog-encrypt": "^3.1.9",
     "hexo-deployer-git": "^4.0.0",
@@ -20,13 +23,18 @@
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-tag": "^2.0.0",
-    "hexo-helper-live2d": "^3.1.0",
+    "hexo-helper-live2d": "^3.1.1",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^6.3.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^1.0.0",
+    "http-cache-semantics": "^4.1.1",
+    "ip": "^2.0.1",
     "live2d-widget-model-nietzsche": "^1.0.5",
-    "mpegts.js": "^1.7.3"
+    "minimist": "^1.2.8",
+    "mpegts.js": "^1.7.3",
+    "node-fetch": "^3.3.2",
+    "tar": "^7.4.3"
   }
 }

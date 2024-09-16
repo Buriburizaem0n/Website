@@ -36,6 +36,10 @@ wrong_pass_message: 密码错误，请重新输入
       }
     }
   </style>
+
+  <!-- 加载 nPlayer.js -->
+  <script src="https://nplayer.js.org/nplayer.js"></script>
+  <link rel="stylesheet" href="https://nplayer.js.org/nplayer.css" />
 </head>
 
 <body>
@@ -56,4 +60,18 @@ wrong_pass_message: 密码错误，请重新输入
   </video>
 
   <script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
+  
+  <!-- 初始化 nPlayer.js -->
+  <script>
+    const player = new NPlayer({
+      source: {
+        src: "./filmbase/test.mp4",
+        type: "video/mp4"
+      },
+      container: document.getElementById("my-video"),
+      autoplay: false,
+      controls: true,
+      loop: false,
+    });
+  </script>
 </body>

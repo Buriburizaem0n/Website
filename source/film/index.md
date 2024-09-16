@@ -48,7 +48,7 @@ wrong_pass_message: 密码错误，请重新输入
     data-setup="{}"
   >
     <source src="#" type="application/x-mpegURL" />
-    <source src="./filmbase/test.mp4" type="video/mp4" />
+    <source src="./filmbase/test.mp4" type="video/mp4" />s
     <p class="vjs-no-js">
       Love U Forever
       <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>

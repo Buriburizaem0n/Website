@@ -18,17 +18,17 @@ tags:
             display: flex;
             flex-direction: column;
             justify-content: center;
-            height: 140vh;
+            min-height: 120vh;
         }
         .heartt {
             width: 120px;
             height: 120px;
             background-color: #e74c3c;
             position: relative;
-            transform: rotate(-45deg);
+            transform: translate(-50%, 0) rotate(-45deg); /* 平移让心形水平居中 */
             margin-bottom: 20px;
             animation: pulse 1s infinite;
-            left: 390px;
+            left: 50%; /* 使用百分比使心形居中 */
         }
         .heartt::before,
         .heartt::after {
@@ -37,7 +37,7 @@ tags:
             height: 120px;
             background-color: #e74c3c;
             border-radius: 50%;
-            position: fixed;
+            position: absolute;
         }
         .heartt::before {
             top: -60px;
@@ -59,10 +59,10 @@ tags:
         }
         @keyframes pulse {
             0%, 100% {
-                transform: scale(1) rotate(-45deg);
+                transform: scale(1) translate(-50%, 0) rotate(-45deg);
             }
             50% {
-                transform: scale(1.1) rotate(-45deg);
+                transform: scale(1.1) translate(-50%, 0) rotate(-45deg);
             }
         }
         @keyframes bounce {

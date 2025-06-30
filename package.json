@@ -33,7 +33,7 @@
     "ip": "^2.0.1",
     "live2d-widget-model-nietzsche": "^1.0.5",
     "minimist": "^1.2.8",
-    "mpegts.js": "^1.7.3",
+    "mpegts.js": "^1.8.0",
     "node-fetch": "^3.3.2",
     "tar": "^7.4.3"
   }
